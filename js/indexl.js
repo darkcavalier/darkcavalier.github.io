@@ -32,7 +32,7 @@ var S = {
             m++;
       S.Shape.render();
       //console.log(m);
-      if(m==700){
+      if(m==600){
         window.location.href="../html/BirthdayCake.html";
       }
     });
