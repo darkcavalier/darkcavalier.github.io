@@ -25,7 +25,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('今天|小闫妹妹|祝你|生日快乐|happy birthday|special for u|#countdown 3||');
+      S.UI.simulate('hi|小珊|祝你|生日|快乐');
     }
 
     S.Drawing.loop(function () {
@@ -454,8 +454,8 @@ S.Dot.prototype = {
           this.p.y -= Math.sin(Math.random() * 3.142);
         } else {
           this.move(new S.Point({
-            x: this.p.x + (Math.random() * 50) - 25,
-            y: this.p.y + (Math.random() * 50) - 25,
+            x: this.p.x ,
+            y: this.p.y ,
           }));
         }
       }

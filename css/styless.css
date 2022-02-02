@@ -10,7 +10,8 @@ body {
   position: relative;
   margin-top: -10em;
   margin-bottom: 0px;
-  margin-left: 42.5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ============================================== Candle
@@ -26,7 +27,8 @@ body {
   border-radius: 10px;
   position: relative;
   top: 247px;
-  margin-left: 49.5%;
+  margin-left: auto;
+  margin-right: auto;
   width: 5px;
   height: 35px;
   -webkit-transform: translateY(-300px);
@@ -393,11 +395,15 @@ body {
 
 .happy {
 	position:absolute;
-	left:41%;
+	margin-left: auto;
+  margin-right: auto;
 	top:49%;
 	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 @keyframes happybirthdays {
 	0% {
@@ -442,7 +448,7 @@ body {
 }
 .button-style1 {
 	position:absolute;
-	left:43%;
+  width: 100%;
 	animation:btn1 15s;
 }
 .button-style2 {
@@ -453,29 +459,23 @@ body {
 @keyframes btn1 {
 	0% {
 		opacity:0;
-		left:43.5%;
 	}
 	70% {
 		opacity:0;
-		left:43.5%;
 	}
 	100% {
 		opacity:1;
-		left:43.5%;
 	}
 }
 @-webkit-keyframes btn1 {
 	0% {
 		opacity:0;
-		left:43.5%;
 	}
 	70% {
 		opacity:0;
-		left:43.5%;
 	}
 	100% {
 		opacity:1;
-		left:43.5%;
 	}
 }
 @keyframes btn2 {
@@ -513,6 +513,8 @@ body {
 	transition:all 0.5s;
 }
 .link1,.link2 {
+  margin-left: auto;
+    margin-right: auto;
 	width:170px;
 	height:60px;
 	border:2px solid #fff;
